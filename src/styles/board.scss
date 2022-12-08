@@ -1,0 +1,21 @@
+
+.board-cmp{
+  display: grid;
+  grid-template-columns: 2fr repeat(9, 1fr) 2fr;
+  grid-template-rows: 2fr repeat(9, 1fr) 2fr;
+  background-color: #000;
+  gap: 5px;
+}
+
+.place-center-cmp {
+  grid-row: 2/11;
+  grid-column: 2/11;
+  background-color: #cce3c7;
+}
+.place-moveble-cmp{
+    background-color: #ff0;
+    height: 100%;
+    .user{
+        color: red;
+    }
+}

@@ -1,0 +1,12 @@
+button.cubes-cmp {
+    border: none;
+    display: flex;
+    background: none;
+    .cube{
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+        background-color: #fff;
+        font-size: 40px;
+    }
+}
